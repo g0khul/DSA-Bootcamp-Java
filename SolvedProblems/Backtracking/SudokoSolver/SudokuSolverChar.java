@@ -67,7 +67,7 @@ public class SudokuSolverChar {
                 return false;
             }
         }
-
+        
         for (char[] rows : board) {
             if (rows[col] == number) {
                 return false;
