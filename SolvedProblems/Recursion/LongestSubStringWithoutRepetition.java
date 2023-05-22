@@ -1,4 +1,6 @@
 // https://leetcode.com/problems/longest-substring-without-repeating-characters/
+package SolvedProblems.Recursion;
+
 import java.util.*;
 
 public class LongestSubStringWithoutRepetition{
