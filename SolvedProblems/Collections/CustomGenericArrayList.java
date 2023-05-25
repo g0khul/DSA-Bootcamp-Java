@@ -61,7 +61,7 @@ public class CustomGenericArrayList<T extends Number> {
         // list.isEmpty();
         // list.size();
         // list.add(1, 3);
-        CustomGenericArrayList<String> list = new CustomGenericArrayList<>();
+        // CustomGenericArrayList<String> list = new CustomGenericArrayList<>();
         list.add("sdklj");
         list.add("sdklfj");
         list.add("eklf");

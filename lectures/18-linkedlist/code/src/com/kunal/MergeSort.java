@@ -1,7 +1,23 @@
 package com.kunal;
 
-public class MergeSort {
+class ListNode {
+    int val;
+    ListNode next;
 
+    public ListNode() {
+    }
+
+    public ListNode(int val) {
+        this.val = val;
+    }
+
+    public ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+}
+
+public class MergeSort {
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -43,5 +59,3 @@ public class MergeSort {
         return mid;
     }
 }
-
-
