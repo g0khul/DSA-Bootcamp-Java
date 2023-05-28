@@ -94,32 +94,32 @@
     - - [x] this keyword in Java
     - - [x] Properties
         - - [x] Inheritance
-        - - [ ] Abstraction
-        - - [ ] Polymorphism
-        - - [ ] Encapsulation
-    - - [ ] Overloading & Overriding
-    - - [ ] Static & Non-Static
-    - - [ ] Access Control
-    - - [ ] Interfaces
-    - - [ ] Abstract Classes
-    - - [ ] Singleton Class
-    - - [ ] final, finalize, finally
-    - - [ ] Exception Handling
-- [ ] Linked List
-    - - [ ] Introduction
-    - - [ ] Singly and Doubly Linked List
-    - - [ ] Circular Linked List
-    - - [ ] Fast and slow pointer
-    - - [ ] Cycle Detection
-    - - [ ] Reversing of LinekdList
-    - - [ ] Linked List Interview questions
-- [ ] Stacks & Queues
-    - - [ ] Introduction
-    - - [ ] Interview problems
-    - - [ ] Push efficient
-    - - [ ] Pop efficient
-    - - [ ] Queue using Stack and Vice versa
-    - - [ ] Circular Queue
+        - - [x] Abstraction
+        - - [x] Polymorphism
+        - - [x] Encapsulation
+    - - [x] Overloading & Overriding
+    - - [x] Static & Non-Static
+    - - [x] Access Control
+    - - [x] Interfaces
+    - - [x] Abstract Classes
+    - - [x] Singleton Class
+    - - [x] final, finalize, finally
+    - - [x] Exception Handling
+- [x] Linked List
+    - - [x] Introduction
+    - - [x] Singly and Doubly Linked List
+    - - [x] Circular Linked List
+    - - [x] Fast and slow pointer
+    - - [x] Cycle Detection
+    - - [x] Reversing of LinekdList
+    - - [x] Linked List Interview questions
+- [x] Stacks & Queues
+    - - [x] Introduction
+    - - [x] Interview problems
+    - - [x] Push efficient
+    - - [x] Pop efficient
+    - - [x] Queue using Stack and Vice versa
+    - - [x] Circular Queue
 - [ ] Dynamic Programming
     - - [ ] Introduction
     - - [ ] Recursion + Recursion DP + Iteration + Iteration Space Optimized
