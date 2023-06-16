@@ -17,7 +17,9 @@ public class Main {
             tree.insert(value);
         }
         tree.display();
-        System.out.println(tree.isEmpty());
+        // System.out.println(tree.isEmpty());
+        System.out.println("\n\n");
+        tree.postOrder();
 
         scanner.close();
     }

@@ -63,6 +63,24 @@ public class BinarySearchTree {
         return node;
     }
 
+    // Insert values in an array which is sorted by not using self balancing tree
+    // like AVL tree
+    public void insert(int[] arr) {
+        insert(arr, 0, arr.length - 1);
+    }
+
+    private void insert(int[] arr, int start, int end) {
+        if (start > end) {
+            return;
+        }
+
+        int mid = (start + end) / 2;
+        populate(arr[mid]);
+        insert(arr, start, mid);
+        insert(arr, mid + 1, end);
+
+    }
+
     private int height(Node node) {
         if (node == null) {
             return -1;
@@ -94,6 +112,64 @@ public class BinarySearchTree {
 
     public boolean isEmpty() {
         return root == null;
+    }
+
+    public boolean balanced() {
+        return balanced(root);
+    }
+
+    private boolean balanced(Node node) {
+        if (node == null) {
+            return true;
+        }
+        return Math.abs(height(node.left) - height(node.right)) <= 1 && balanced(node.left) && balanced(node.right);
+    }
+
+    public void preOrder() {
+        preOrder(root);
+    }
+
+    private void preOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+
+        System.out.print(node.value + " ");
+        // Going to the left side
+        preOrder(node.left);
+
+        // Going to the right side
+        preOrder(node.right);
+
+    }
+
+    public void inOrder(){
+        inOrder(root);
+    }
+
+    private void inOrder(Node node){
+        if(node == null){
+            return;
+        }
+
+        inOrder(node.left);
+        System.out.print(node.value + " ");
+        inOrder(node.right);
+
+    }
+
+    public void postOrder(){
+        postOrder(root);
+    }
+
+    private void postOrder(Node node){
+        if(node == null){
+            return;
+        }
+
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.print(node.value + " ");
     }
 
 }
