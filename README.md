@@ -131,11 +131,11 @@
     - - [ ] Unbounded Knapsack
     - - [ ] Subseq questions
     - - [ ] String DP
-- [ ] Trees
-    - - [ ] Introduction
-    - - [ ] Binary Trees
-    - - [ ] Recursive Preorder, Inorder, Postorder Traversals
-    - - [ ] Iterative Preorder, Inorder, Postorder Traversals
+- [x] Trees
+    - - [x] Introduction
+    - - [x] Binary Trees
+    - - [x] Recursive Preorder, Inorder, Postorder Traversals
+    - - [x] Iterative Preorder, Inorder, Postorder Traversals
     - - [ ] LC Questions
     - - [ ] DFS
     - - [ ] BFS  
