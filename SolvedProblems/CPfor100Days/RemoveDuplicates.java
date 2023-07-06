@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/remove-duplicate-letters/submissions/
-package SolvedProblems.Random;
+package SolvedProblems.CPfor100Days;
 
 import java.util.Stack;
 
