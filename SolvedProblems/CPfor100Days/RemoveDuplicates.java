@@ -37,7 +37,7 @@ public class RemoveDuplicates {
     }
 
     public static void main(String[] args) {
-        String result = removeDuplicateLetters("bcabc");
+        String result = removeDuplicateLetters("bsdfbdfnfghcabc");
         System.out.println(result);
     }
 }
