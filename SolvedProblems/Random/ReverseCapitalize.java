@@ -1,6 +1,5 @@
 package SolvedProblems.Random;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ReverseCapitalize {
