@@ -1,5 +1,8 @@
 package SolvedProblems.CPfor100Days;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class SymmetricTree {
     public static boolean isSymmetric(TreeNode root) {
         if(root == null){
@@ -60,7 +63,7 @@ class TreeNode {
             this.val = value;
             return;
         }
-        java.util.Queue<TreeNode> queue = new java.util.LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(this);
         while (!queue.isEmpty()) {
             TreeNode current = queue.poll();
