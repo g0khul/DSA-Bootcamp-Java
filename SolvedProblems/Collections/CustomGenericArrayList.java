@@ -1,6 +1,6 @@
 package SolvedProblems.Collections;
 
-import java.util.Arrays;
+import java.util.*;
                             // <T extends Number> will allow only type of Number or it's sub class
 public class CustomGenericArrayList<T extends Number> {
     Object[] data;
@@ -62,16 +62,16 @@ public class CustomGenericArrayList<T extends Number> {
         // list.size();
         // list.add(1, 3);
         // CustomGenericArrayList<String> list = new CustomGenericArrayList<>();
-        list.add("sdklj");
-        list.add("sdklfj");
-        list.add("eklf");
-        list.remove();
-        list.add("go");
+        // list.add("sdklj");
+        // list.add("sdklfj");
+        // list.add("eklf");
+        // list.remove();
+        // list.add("go");
 
-        System.out.println(list.isEmpty());
-        System.out.println(list.size);
+        // System.out.println(list.isEmpty());
+        // System.out.println(list.size);
 
-        System.out.println(list);
+        // System.out.println(list);
     }
      
 }

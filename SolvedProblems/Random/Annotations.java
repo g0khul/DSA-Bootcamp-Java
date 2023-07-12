@@ -4,7 +4,7 @@ import java.lang.annotation.Inherited;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
 @FunctionalInterface
 interface Abc {
@@ -23,13 +23,13 @@ class AClass {
 class BClass extends AClass {
 
     @Override // Gives error if I'm not overriding
-    @SuppressWarnings("unchecked") // Supressing the warning of myList ArrayList
+    // @SuppressWarnings("unchecked") // Supressing the warning of myList ArrayList
     public void show() {
         System.out.println("in B");
-        ArrayList myList = new ArrayList(); // Gives warning because type is not mentioned
-        myList.add(5);
-        myList.add(6);
-        myList.add("String value");
+        // ArrayList myList = new ArrayList(); // Gives warning because type is not mentioned
+        // myList.add(5);
+        // myList.add(6);
+        // myList.add("String value");
     }
 }
 
@@ -77,12 +77,12 @@ public class Annotations {
         BClass BObj = new BClass();
         BObj.show();
 
-        NokiaPhone obj = new NokiaPhone("Fire", 5);
+        // NokiaPhone obj = new NokiaPhone("Fire", 5);
 
-        Class c = obj.getClass();
-        Annotation an = c.getAnnotation(SmartPhone.class);
-        SmartPhone s = (SmartPhone) an;
-        System.out.println(s.os());
+        // Class c = obj.getClass();
+        // Annotation an = c.getAnnotation(SmartPhone.class);
+        // SmartPhone s = (SmartPhone) an;
+        // System.out.println(s.os());
 
     }
 }

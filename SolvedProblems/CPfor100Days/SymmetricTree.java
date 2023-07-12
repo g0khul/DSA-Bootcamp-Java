@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/symmetric-tree/
 package SolvedProblems.CPfor100Days;
 
 import java.util.LinkedList;
@@ -34,6 +35,7 @@ public class SymmetricTree {
         root.insert(3);
         root.prettyDisplay(root);
         System.out.println(isSymmetric(root));
+        
     }
 }
 
@@ -99,6 +101,5 @@ class TreeNode {
             System.out.println(node.val);
         }
         display(node.left, level + 1);
-
     }
 }

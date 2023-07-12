@@ -1,4 +1,4 @@
-package SolvedProblems.SomeConcepts.Oops;
+package SolvedProblems.Random.Oops;
 
 public class Child extends Parent{
     void method(){

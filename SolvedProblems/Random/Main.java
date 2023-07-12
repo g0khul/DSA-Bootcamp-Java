@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 public class Main {
     public static int encryptinput1(int[] input1, int N) {
         int sum = 0;
