@@ -1,20 +1,42 @@
-package SolvedProblem.CPfor100Days;
-
 public class RemoveDuplicatesLL {
     public static ListNode deleteDuplicates(ListNode head) {
-        ListNode temp = head;
-
-        while(temp != null && temp.next != null){
-            if(temp.val == temp.next.val){
-                temp.next = temp.next.next;
-                continue;
-            } else {
-                temp.next = temp.next.next;
-                temp = temp.next;
-            }
+        if (head == null || head.next == null) {
+            return head;
         }
 
-        return head;
+        ListNode temp = head;
+        ListNode result = new ListNode();
+        ListNode resultTemp = result;
+        boolean flag = false;
+        while (temp.next != null) {
+            if (temp.val != temp.next.val) {
+                if (!flag) {
+                    resultTemp.next = new ListNode(temp.val);
+                    resultTemp = resultTemp.next;
+                } else {
+                    flag = false;
+                }
+
+            } else {
+                flag = true;
+            }
+            temp = temp.next;
+        }
+
+        if (!flag) {
+            resultTemp.next = new ListNode(temp.val);
+        }
+
+        return result.next;
+    }
+
+    public static void display(ListNode head) {
+        ListNode temp = head;
+        while (temp != null) {
+            System.out.print(temp.val + " ");
+            temp = temp.next;
+        }
+
     }
 
     public static void main(String[] args) {
@@ -25,7 +47,7 @@ public class RemoveDuplicatesLL {
         head.next.next.next.next = new ListNode(3);
         head.next.next.next.next.next = new ListNode(3);
         head = deleteDuplicates(head);
-        head.display(head);
+        display(head);
     }
 }
 
@@ -45,11 +67,4 @@ class ListNode {
         this.next = next;
     }
 
-    void display(ListNode head) {
-        ListNode temp = head;
-        while (temp != null) {
-            System.out.print(temp.val + " ");
-            temp = temp.next;
-        }
-    }
 }

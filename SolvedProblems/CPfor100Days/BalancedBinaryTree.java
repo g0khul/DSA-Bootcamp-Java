@@ -1,34 +1,40 @@
-// https://leetcode.com/problems/maximum-depth-of-binary-tree/
-package SolvedProblems.CPfor100Days;
-
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class MaxDepthTree {
-    public static int maxDepth(TreeNode root) {
+public class BalancedBinaryTree {
+    public boolean isBalanced(TreeNode root) {
+        if(root == null){
+            return true;
+        }
+        return (helper(root, 0) == 0) ? false : true;
+    }
+
+    private int helper(TreeNode root, int depth) {
         if (root == null) {
+            return depth;
+        }
+
+        int leftDepth = helper(root.left, depth + 1);
+        int rightDepth = helper(root.right, depth + 1);
+
+        if(leftDepth == 0 || rightDepth == 0){
             return 0;
         }
 
-        int leftDepth = maxDepth(root.left);
-        int rightDepth = maxDepth(root.right);
+        if (Math.abs(leftDepth - rightDepth) > 1) {
+            return 0;
+        }
 
-        return Math.max(leftDepth, rightDepth) + 1;
+        return Math.max(leftDepth, rightDepth);
     }
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode();
-        root.insert(1);
-        root.insert(2);
-        root.insert(2);
-        // root.insert(3);
-        root.insert(4);
-        root.insert(4);
-        root.insert(3);
+        TreeNode root = new TreeNode(3);
+        root.insert(9);
+        root.insert(20);
+        root.insert(15);
+        root.insert(7);
         root.prettyDisplay(root);
-        System.out.println(maxDepth(root));
-
     }
 }
 

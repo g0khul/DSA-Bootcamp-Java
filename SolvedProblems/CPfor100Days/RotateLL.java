@@ -2,24 +2,32 @@
 
 public class RotateLL {
     public static ListNode rotateRight(ListNode head, int k) {
-        while (k != 0) {
-            ListNode tail = head;
-            ListNode secondLast = null;
-            while (tail.next != null) {
-                if (tail == head) {
-                    secondLast = head;
-                } else {
-                    secondLast = secondLast.next;
-                }
-                tail = tail.next;
-            }
-
-            secondLast = null;
-            tail.next = head;
-            head = tail;
-            k--;
+        if (head == null) {
+            return head;
         }
-        return head;
+        
+        int length = 1;
+        ListNode tail = head;
+        while(tail.next != null){
+            tail = tail.next;
+            length++;
+        }
+
+        k = k % length;
+
+        if(k == 0){
+            return head;
+        }
+
+        tail.next = head;
+        ListNode newTemp = head;
+        for(int i = 0; i < length - k - 1; i++){
+            newTemp = newTemp.next;
+        }
+        ListNode temp = newTemp.next;
+        newTemp.next = null;
+        
+        return temp;
     }
 
     public static void main(String[] args) {
@@ -30,7 +38,7 @@ public class RotateLL {
         head.next.next.next.next = new ListNode(3);
         head.next.next.next.next.next = new ListNode(3);
         head = rotateRight(head, 2);
-        // head.display(head);
+        head.display(head);
     }
 
 }
