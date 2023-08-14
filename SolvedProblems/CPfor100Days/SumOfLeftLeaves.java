@@ -1,11 +1,11 @@
 import java.util.Stack;
 
 public class SumOfLeftLeaves {
-    public int sumOfLeftLeaves(TreeNode root) {
+    public  static int sumOfLeftLeaves(TreeNode root) {
         return helper(root, 0);
     }
 
-    public int helper(TreeNode node, int Sum) {
+    public static int helper(TreeNode node, int Sum) {
         Stack<TreeNode> stack = new Stack<>();
         boolean left = false;
         stack.add(node);
