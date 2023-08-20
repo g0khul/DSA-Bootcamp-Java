@@ -1,0 +1,2 @@
+dsklghdlglHello world I'm writing something that needs to be appended
+Hello world I'm writing it from BufferedWriter
