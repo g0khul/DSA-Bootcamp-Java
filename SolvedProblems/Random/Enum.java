@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 enum DaysOfTheWeek{
     MONDAY(1),
     TUESDAY(2),

@@ -1,6 +1,8 @@
+package SolvedProblems.Random;
+
 import java.util.*;
 
-public class New {
+public class BestPartition {
 
     public static int bestPartition(int[] array, int n, int k) {
         // Check if the number of elements is valid.
@@ -28,13 +30,6 @@ public class New {
         // Find the maximum sum of all possible partitions of the array.
         for (int i = 1; i <= k; i++) {
             bestSum = Math.max(bestSum, dp[n][i]);
-        }
-
-        // If the number of segments is greater than the number of elements, then the best partition is the one that has only one segment.
-        if (k > n) {
-            for (int i = 0; i < n; i++) {
-                bestSum = Math.max(bestSum, array[i]);
-            }
         }
 
         return bestSum;

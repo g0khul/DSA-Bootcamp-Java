@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 interface XYZ {
     public void show();
 }

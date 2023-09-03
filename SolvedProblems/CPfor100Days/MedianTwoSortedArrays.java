@@ -1,6 +1,8 @@
+import java.util.Arrays;
+
 public class MedianTwoSortedArrays {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        if(nums1.length == 0 && nums2.length == 0){
+        if (nums1.length == 0 && nums2.length == 0) {
             return 0;
         }
 
@@ -29,16 +31,19 @@ public class MedianTwoSortedArrays {
             }
         }
 
-        if(result.length == 1){
+        if (result.length == 1) {
             return result[0];
         }
 
-        if(result.length == 2){
+        if (result.length == 2) {
             return result[0] + result[1];
         }
 
+        System.out.println(Arrays.toString(result));
+
         if (result.length % 2 == 0) {
-            return (result[result.length / 2] + result[result.length / 2 - 1]) / 2;
+            System.out.println(result[result.length / 2] + " : " + result[(result.length / 2) - 1]);
+            return (double) (result[result.length / 2] + result[(result.length / 2) - 1]) / 2;
         }
 
         return result[(result.length) / 2];

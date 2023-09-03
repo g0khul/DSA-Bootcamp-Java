@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 public class ReverseArray {
 
     public static void swap(int arr[], int start, int end) {

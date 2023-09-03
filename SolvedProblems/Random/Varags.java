@@ -1,4 +1,4 @@
-package SolvedProblems.SomeConcepts;
+package SolvedProblems.Random;
 
 public class Varags {
     public static void main(String[] args) {

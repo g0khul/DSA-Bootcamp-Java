@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 class MainClass {
     int num;
     boolean flag = false;

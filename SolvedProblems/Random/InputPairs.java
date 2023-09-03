@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 import java.util.*;
 
 public class InputPairs {

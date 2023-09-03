@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 class NewThreadForWaitAndNotify implements Runnable {
 
     String threadName;

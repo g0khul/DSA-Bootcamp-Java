@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 //Extending the class Thread
 
 class Hi extends Thread {

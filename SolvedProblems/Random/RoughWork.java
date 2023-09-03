@@ -1,4 +1,4 @@
-package SolvedProblems.SomeConcepts;
+package SolvedProblems.Random;
 
 import java.io.BufferedReader;
 

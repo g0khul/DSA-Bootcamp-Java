@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 class Count {
     int count;
 

@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 // Runnable using lambda expression
 
 public class RunnableThread {

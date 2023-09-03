@@ -1,3 +1,5 @@
+package SolvedProblems.Random;
+
 class Palindrome {
 
     public static boolean isPalindrome(int x) {
