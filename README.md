@@ -140,9 +140,9 @@
     - - [ ] DFS
     - - [ ] BFS  
     - - [ ] Morris Traversal `O(1) Space`
-    - - [ ] Binary Search Trees
+    - - [x] Binary Search Trees
     - - [ ] LC Questions
-    - - [ ] AVL Trees
+    - - [x] AVL Trees
     - - [ ] Segment Tree
     - - [ ] Fenwick Tree / Binary Indexed Tree
 - [ ] Heaps
