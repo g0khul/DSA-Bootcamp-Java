@@ -44,5 +44,6 @@ public class BestPartition {
 
         // Print the output.
         System.out.println(bestPartition(array, n, k));
+        scanner.close();
     }
 }

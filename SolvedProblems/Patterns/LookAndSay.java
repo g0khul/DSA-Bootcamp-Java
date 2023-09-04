@@ -1,9 +1,8 @@
-package SolvedProblems.Random;
+package SolvedProblems.Patterns;
 
 import java.util.*;
 
 public class LookAndSay {
-
     public static String look(String val) {
         StringBuilder result = new StringBuilder();
 

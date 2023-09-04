@@ -1,5 +1,7 @@
 package SolvedProblems.Random;
 
+import java.util.Arrays;
+
 enum DaysOfTheWeek{
     MONDAY(1),
     TUESDAY(2),
@@ -19,7 +21,7 @@ enum DaysOfTheWeek{
 public class Enum {
     public static void main(String[] args) {
         DaysOfTheWeek myday[] = DaysOfTheWeek.values(); // Just fetching all the constants in an array
-
+        System.out.println(Arrays.toString(myday));
         for(DaysOfTheWeek MyDay : DaysOfTheWeek.values())
             System.out.println(MyDay);                    // Printing all the constants
 
