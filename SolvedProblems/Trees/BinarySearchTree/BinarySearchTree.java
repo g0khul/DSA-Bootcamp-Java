@@ -1,4 +1,4 @@
-package SolvedProblems.Trees;
+package SolvedProblems.Trees.BinarySearchTree;
 
 public class BinarySearchTree {
     Node root;

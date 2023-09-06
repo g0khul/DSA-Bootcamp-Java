@@ -1,46 +1,58 @@
 package LinkedList;
 
+import java.math.BigInteger;
+
 public class AddTwoNumbersII {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        String val1 = "";
-        String val2 = "";
+        StringBuilder num1 = new StringBuilder();
+        StringBuilder num2 = new StringBuilder();
 
         ListNode temp = l1;
-        while (temp != null) {
-            val1 += temp.val;
+        while(temp != null){
+            num1.append(temp.val);
             temp = temp.next;
         }
 
         temp = l2;
-        while (temp != null) {
-            val2 += temp.val;
+        while(temp != null){
+            num2.append(temp.val);
             temp = temp.next;
         }
 
-        int num1 = Integer.parseInt(val1);
-        int num2 = Integer.parseInt(val2);
-        int res = num1 + num2;
+        BigInteger n1 = new BigInteger(num1.toString());
+        BigInteger n2 = new BigInteger(num2.toString());
 
-        ListNode result = null;
-        while (res != 0) {
-            ListNode New = new ListNode();
-            New.val = res % 10;
+        n1 = n1.add(n2);
+        ListNode result = new ListNode(n1.remainder(BigInteger.TEN).intValue());
+        n1 = n1.divide(BigInteger.TEN);         
 
-            New.next = result;
-            result = New;
-
-            res = res / 10;
-        }
-
-        if (result == null) {
-            return new ListNode(0);
+        while(!n1.equals(BigInteger.ZERO)){
+            temp = new ListNode(n1.remainder(BigInteger.TEN).intValue());
+            temp.next = result;
+            result = temp; 
+            n1 = n1.divide(BigInteger.TEN);         
         }
 
         return result;
     }
 
     public static void main(String[] args) {
+        ListNode num1 = new ListNode(7);
+        num1.next = new ListNode(2);
+        num1.next.next = new ListNode(4);
+        num1.next.next.next = new ListNode(3);
 
+        ListNode num2 = new ListNode(5);
+        num2.next = new ListNode(6);
+        num2.next.next = new ListNode(4);
+
+        ListNode result = addTwoNumbers(num1, num2);
+        ListNode temp = result;
+        while(temp != null){
+            System.out.print(temp.val + " ");
+            temp = temp.next;
+        }
+        System.out.println();
     }
 }
 
