@@ -1,5 +1,20 @@
 package SolvedProblems.Trees.SegmentTree;
 
+// Node implementation of Segment Tree
+class Node {
+    int data; // here I'm finding the sum
+    int startInterval;
+    int endInterval;
+    Node left;
+    Node right;
+
+    public Node(int startInterval, int endInterval) {
+        this.startInterval = startInterval;
+        this.endInterval = endInterval;
+    }
+}
+
+// Segment tree method implementations
 public class SegmentTree {
     Node root;
 
@@ -78,6 +93,8 @@ public class SegmentTree {
         prettyDisplay(node.left, level + 1);
     }
 
+    // -------------------------------------------------------------------------------------
+    // Main method to run the program
     public static void main(String[] args) {
         int[] nums = { 3, 8, 7, 6, -2, -8, 4, 9 };
         SegmentTree segmentTree = new SegmentTree(nums);
@@ -89,18 +106,5 @@ public class SegmentTree {
 
         segmentTree.display();
         System.out.println(segmentTree.query(1, 1) + "\n\n\n\n");
-    }
-}
-
-class Node {
-    int data; // here I'm finding the sum
-    int startInterval;
-    int endInterval;
-    Node left;
-    Node right;
-
-    public Node(int startInterval, int endInterval) {
-        this.startInterval = startInterval;
-        this.endInterval = endInterval;
     }
 }
