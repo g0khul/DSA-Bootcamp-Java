@@ -143,7 +143,7 @@
     - - [x] Binary Search Trees
     - - [ ] LC Questions
     - - [x] AVL Trees
-    - - [ ] Segment Tree
+    - - [x] Segment Tree
     - - [ ] Fenwick Tree / Binary Indexed Tree
 - [ ] Heaps
     - - [ ] Introduction
