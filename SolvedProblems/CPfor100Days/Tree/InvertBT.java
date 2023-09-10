@@ -1,40 +1,28 @@
+package Tree;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BalancedBinaryTree {
-    public boolean isBalanced(TreeNode root) {
-        if(root == null){
-            return true;
+public class InvertBT {
+    public TreeNode invertTree(TreeNode root) {
+        if (root == null || (root.left == null && root.right == null)) {
+            return root;
         }
-        return (helper(root, 0) == 0) ? false : true;
+        helper(root);
+        return root;
     }
 
-    private int helper(TreeNode root, int depth) {
-        if (root == null) {
-            return depth;
+    private void helper(TreeNode node) {
+        if (node == null) {
+            return;
         }
 
-        int leftDepth = helper(root.left, depth + 1);
-        int rightDepth = helper(root.right, depth + 1);
+        TreeNode temp = node.left;
+        node.left = node.right;
+        node.right = temp;
 
-        if(leftDepth == 0 || rightDepth == 0){
-            return 0;
-        }
-
-        if (Math.abs(leftDepth - rightDepth) > 1) {
-            return 0;
-        }
-
-        return Math.max(leftDepth, rightDepth);
-    }
-
-    public static void main(String[] args) {
-        TreeNode root = new TreeNode(3);
-        root.insert(9);
-        root.insert(20);
-        root.insert(15);
-        root.insert(7);
-        root.prettyDisplay(root);
+        helper(node.left);
+        helper(node.right);
     }
 }
 

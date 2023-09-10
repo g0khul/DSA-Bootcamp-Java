@@ -1,6 +1,8 @@
 // https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 package SolvedProblems.CPfor100Days;
 
+import Tree.TreeNode;
+
 public class SortedArrayToBST {
     public static TreeNode sortedArrayToBST(int[] nums) {
         return createTree(nums, 0, nums.length - 1);

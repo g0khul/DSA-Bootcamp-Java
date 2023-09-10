@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/delete-node-in-a-linked-list/
-package SolvedProblems.CPfor100Days;
+package LinkedList;
 
 public class DeleteNodeInLL {
     public static void display(ListNode head){

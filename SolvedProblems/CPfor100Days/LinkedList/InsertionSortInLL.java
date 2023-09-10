@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class InsertionSortInLL {
     public static ListNode insertionSortList(ListNode head) {
         if(head == null || head.next == null){

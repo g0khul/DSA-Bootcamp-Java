@@ -1,3 +1,5 @@
+package LinkedList;
+
 // https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/description/
 // package SolvedProblems.CPfor100Days;
 

@@ -1,3 +1,4 @@
+package Tree;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,9 +35,5 @@ public class ModeOfBST {
         }
 
         helper(node.right, list);
-    }
-
-    private boolean isAdded(List<Integer> list, int val) {
-        return list.contains(val);
     }
 }

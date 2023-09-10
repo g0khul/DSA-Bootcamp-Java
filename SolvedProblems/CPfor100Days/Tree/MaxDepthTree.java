@@ -1,26 +1,33 @@
+// https://leetcode.com/problems/maximum-depth-of-binary-tree/
+package Tree;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class InvertBT {
-    public TreeNode invertTree(TreeNode root) {
-        if(root == null || (root.left == null && root.right == null)){
-            return root;
+public class MaxDepthTree {
+    public static int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
         }
-        helper(root);
-        return root;
+
+        int leftDepth = maxDepth(root.left);
+        int rightDepth = maxDepth(root.right);
+
+        return Math.max(leftDepth, rightDepth) + 1;
     }
 
-    private void helper(TreeNode node) {
-        if(node == null){
-            return;
-        }
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode();
+        root.insert(1);
+        root.insert(2);
+        root.insert(2);
+        // root.insert(3);
+        root.insert(4);
+        root.insert(4);
+        root.insert(3);
+        root.prettyDisplay(root);
+        System.out.println(maxDepth(root));
 
-        TreeNode temp = node.left;
-        node.left = node.right;
-        node.right = temp;
-
-        helper(node.left);
-        helper(node.right);
     }
 }
 

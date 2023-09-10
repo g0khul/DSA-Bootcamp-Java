@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/intersection-of-two-linked-lists/
-package SolvedProblems.CPfor100Days;
+package LinkedList;
 
 public class IntersectionDetectionInLL {
     public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {

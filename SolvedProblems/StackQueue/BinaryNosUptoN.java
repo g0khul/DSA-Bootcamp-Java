@@ -1,4 +1,4 @@
-package Queue.Problems;
+package SolvedProblems.StackQueue;
 
 import java.util.*;
 
