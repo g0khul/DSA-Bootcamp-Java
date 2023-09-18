@@ -1,3 +1,5 @@
+import LinkedList.ListNode;
+
 public class RemoveDuplicatesLL {
     public static ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) {

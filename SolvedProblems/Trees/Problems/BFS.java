@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class BFS {
-    public static void display(Node root){
-        if(root == null){
+    public static void display(Node root) {
+        if (root == null) {
             return;
         }
 
@@ -13,22 +13,18 @@ public class BFS {
     }
 
     private static void helperDisplay(Node node, Queue<Node> queue) {
-        if(node == null){
-            return;
-        }
-
         // Add left child to the queue
-        if(node.left != null){
+        if (node.left != null) {
             queue.offer(node.left);
         }
 
         // Add right child to the queue
-        if(node.right != null){
+        if (node.right != null) {
             queue.offer(node.right);
         }
 
         System.out.print(node.value + " ");
-        if(!queue.isEmpty()){
+        if (!queue.isEmpty()) {
             helperDisplay(queue.poll(), queue);
         }
     }
