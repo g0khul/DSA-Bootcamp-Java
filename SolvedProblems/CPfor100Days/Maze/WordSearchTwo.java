@@ -1,5 +1,4 @@
-package SolvedProblems.CPfor100Days;
-
+package Maze;
 import java.util.ArrayList;
 import java.util.List;
 

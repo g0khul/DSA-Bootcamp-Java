@@ -1,4 +1,4 @@
-package SolvedProblems.CPfor100Days;
+package Maze;
 
 public class WordSearch {
     static int previousRow = -1;

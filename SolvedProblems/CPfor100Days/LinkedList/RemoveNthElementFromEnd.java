@@ -1,4 +1,4 @@
-import LinkedList.ListNode;
+package LinkedList;
 
 public class RemoveNthElementFromEnd {
     public static ListNode removeNthFromEnd(ListNode head, int n) {

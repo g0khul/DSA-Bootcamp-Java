@@ -1,4 +1,3 @@
-package SolvedProblems.CPfor100Days;
 
 import java.util.ArrayList;
 import java.util.List;

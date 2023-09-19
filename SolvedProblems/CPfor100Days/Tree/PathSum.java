@@ -1,4 +1,4 @@
-import Tree.TreeNode;
+package Tree;
 
 public class PathSum {
     public boolean hasPathSum(TreeNode root, int targetSum) {
@@ -11,7 +11,7 @@ public class PathSum {
         }
 
         if (node.left == null && node.right == null) {
-            return node.val == targetSumRe;
+            return node.val == targetSum;
         }
 
         return helper(node.left, targetSum - node.val) || helper(node.right, targetSum - node.val);

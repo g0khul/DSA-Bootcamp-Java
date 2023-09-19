@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/shifting-letters
-package SolvedProblems.CPfor100Days;
 
 public class ShiftingLetters {
     public static String shiftingLetters(String s, int[] shifts) {

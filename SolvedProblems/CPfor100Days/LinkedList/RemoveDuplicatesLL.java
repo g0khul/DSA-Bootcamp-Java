@@ -1,4 +1,4 @@
-import LinkedList.ListNode;
+package LinkedList;
 
 public class RemoveDuplicatesLL {
     public static ListNode deleteDuplicates(ListNode head) {

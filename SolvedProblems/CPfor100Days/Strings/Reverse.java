@@ -1,4 +1,4 @@
-package SolvedProblems.CPfor100Days;
+package Strings;
 
 import java.util.Scanner;
 
@@ -8,5 +8,6 @@ public class Reverse {
         String str = sc.next();
         StringBuilder s = new StringBuilder(str);
         System.out.println(s.reverse().toString());
+        sc.close();
     }
 }

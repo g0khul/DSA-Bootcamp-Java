@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/symmetric-tree/
-package SolvedProblems.CPfor100Days;
 
 import java.util.LinkedList;
 import java.util.Queue;

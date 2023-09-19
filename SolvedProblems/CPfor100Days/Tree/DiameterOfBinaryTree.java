@@ -1,4 +1,5 @@
 package Tree;
+
 public class DiameterOfBinaryTree {
     public static int diameterOfBinaryTree(TreeNode root) {
         int[] arr = new int[1];

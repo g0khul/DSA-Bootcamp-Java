@@ -1,3 +1,5 @@
+package Tree;
+
 import java.util.ArrayList;
 
 public class ValidBST {
@@ -47,4 +49,5 @@ class TreeNode {
         this.left = left;
         this.right = right;
     }
+    
 }
