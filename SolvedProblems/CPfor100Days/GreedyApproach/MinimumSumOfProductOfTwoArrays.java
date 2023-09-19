@@ -1,5 +1,7 @@
 package GreedyApproach;
 
+// https://www.geeksforgeeks.org/minimum-sum-product-two-arrays/
+
 public class MinimumSumOfProductOfTwoArrays {
     public static int minProduct(int[] nums1, int[] nums2, int k) {
         int minSum = Integer.MAX_VALUE;

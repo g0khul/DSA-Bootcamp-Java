@@ -1,3 +1,5 @@
+package GoodQuestions;
+
 // There are 100 cells. Initially every cells is closed (false) you have to start from 
 // cell 1 to 100. If I go for first cell then invert the cells that makes numbers divisible. 
 // Eg. 2 then all the even cells will be inverted from true to false or false to true.

@@ -1,3 +1,4 @@
+package Strings;
 // package SolvedProblems.CPfor100Days;
 
 public class RemoveDigitFromDigit {
@@ -5,6 +6,7 @@ public class RemoveDigitFromDigit {
         if (number.length() == 0) {
             return "";
         }
+
         long max = Integer.MIN_VALUE;
         char[] arr = number.toCharArray();
         for (int i = 0; i < number.length(); i++) {
@@ -12,6 +14,7 @@ public class RemoveDigitFromDigit {
                 max = findMax(arr, digit, max, i);
             }
         }
+
         return String.valueOf(max);
     }
 

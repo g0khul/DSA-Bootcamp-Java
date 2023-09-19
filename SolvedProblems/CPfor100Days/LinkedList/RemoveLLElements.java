@@ -1,3 +1,5 @@
+package LinkedList;
+
 public class RemoveLLElements {
     public static ListNode removeElements(ListNode head, int val) {
         if (head == null) {

@@ -8,15 +8,11 @@ class Cosmetics {
     public void setBrand(String brand) {
         this.brand = brand;
     }
-    
+
     public void apply() {
         System.out.println("Applying " + brand + " " + this.getClass().getSimpleName());
     }
-
-    
-
 }
-
 
 public class OOP {
     public static void main(String[] args) {
@@ -25,15 +21,15 @@ public class OOP {
     }
 }
 
-class A{
-    void add(){
+class A {
+    void add() {
         System.out.println("I'm in A");
     }
 }
 
 class B extends A {
     @Override
-    void add(){
+    void add() {
         System.out.println("I'm in B");
     }
 }

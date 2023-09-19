@@ -1,3 +1,5 @@
+package Strings;
+
 public class StringEquvilent {
     public static boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         String s1 = String.join("", word1);
