@@ -41,9 +41,5 @@ public class CountingGoodNumbers {
 
     public static void main(String[] args) {
         System.out.println("Answer : " + countGoodNumbers(4));
-
-        int a = 10;
-        a = 20;
-        a = 30;
     }
 }

@@ -82,7 +82,6 @@ public class BinaryTree {
         System.out.print(node.value + " ");
         // Going to the left side
         preOrder(node.left);
-
         // Going to the right side
         preOrder(node.right);
 

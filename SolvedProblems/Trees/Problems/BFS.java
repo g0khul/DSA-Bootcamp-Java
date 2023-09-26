@@ -29,6 +29,32 @@ public class BFS {
         }
     }
 
+    public static void leftView(Node root){
+        if(root == null){
+            return;
+        }
+
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(root);
+
+        while(!queue.isEmpty()){
+            Node currentNode = queue.poll();
+            System.out.print(currentNode.value + " ");
+
+            if(currentNode.left != null){
+                queue.offer(currentNode.left);
+            }
+
+            if(currentNode.right != null){
+                queue.offer(currentNode.right);
+            }
+        }
+
+        System.out.println();
+
+    }
+
+    
     public static void main(String[] args) {
         Tree tree = new Tree();
         tree.populate(15);
@@ -42,8 +68,10 @@ public class BFS {
         tree.populate(5);
         tree.populate(17);
         tree.populate(25);
-        display(tree.root);
-        System.out.println();
+        // display(tree.root);
+        // System.out.println();
         tree.display();
+
+        BFS.leftView(tree.root);
     }
 }

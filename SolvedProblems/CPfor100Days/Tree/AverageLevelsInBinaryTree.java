@@ -17,8 +17,11 @@ public class AverageLevelsInBinaryTree {
         queue.offer(root);
 
         while (!queue.isEmpty()) {
-            int levelSize = queue.size();
+            int levelSize = queue.size();   // 2
             double sum = 0;
+                // queue =   4 5
+                // cr = 
+            System.out.print(queue.peek().val + " ");   // 1 
 
             for (int i = 0; i < levelSize; i++) {
                 TreeNode currentNode = queue.poll();
@@ -35,6 +38,9 @@ public class AverageLevelsInBinaryTree {
             result.add(sum / levelSize);
             sum = 0;
         }
+
+
+        System.out.println();
         
         return result;
     }
@@ -43,6 +49,7 @@ public class AverageLevelsInBinaryTree {
         TreeNode root = new TreeNode(1, new TreeNode(2), new TreeNode(3));
         root.left.left = new TreeNode(4);
         root.right.right = new TreeNode(5);
+
         System.out.println(averageOfLevels(root));
     }
 }
