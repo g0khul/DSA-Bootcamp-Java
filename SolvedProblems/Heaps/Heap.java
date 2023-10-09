@@ -61,7 +61,7 @@ public class Heap<T extends Comparable<T>> {
         return data;
     }
 
-    private void downHeap(int index) {
+    void downHeap(int index) {
         int left = this.left(index);
         int right = this.right(index);
 
