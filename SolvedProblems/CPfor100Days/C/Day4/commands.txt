@@ -1,0 +1,9 @@
+gcc -c -fPIC stack.c -o stack.o
+gcc -c -fPIC queue.c -o queue.o
+gcc -c -fPIC hashtable.c -o hashtable.o 
+
+gcc -shared -o libutil.so stack.o queue.o hashtable.o
+
+gcc -o banking banking.c -L. -lutil -Wl,-rpath,.
+./banking
+
