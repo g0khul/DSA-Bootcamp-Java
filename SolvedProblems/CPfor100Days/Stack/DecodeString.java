@@ -20,7 +20,7 @@ public class DecodeString {
                     sb.insert(0, stack.pop());
                 }
                 stack.pop();
-                
+
                 // Build string
                 int times = Integer.parseInt(stack.pop());
                 String copy = sb.toString();
@@ -28,7 +28,7 @@ public class DecodeString {
                     sb.append(copy);
                 }
 
-                if(!stack.isEmpty()){
+                if (!stack.isEmpty()) {
                     stack.push(sb.toString());
                 } else {
                     result.append(sb);
