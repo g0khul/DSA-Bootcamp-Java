@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/find-all-duplicates-in-an-array/
 
-package SolvedProblems.CyclicSort;
+package SolvedProblems.Sorting.CyclicSort;
 
 import java.util.*;
 

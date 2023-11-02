@@ -1,5 +1,5 @@
 
-package SolvedProblems.CyclicSort;
+package SolvedProblems.Sorting.CyclicSort;
 
 public class FindingMissingNumber {
     public static int missingNumber(int[] nums) {

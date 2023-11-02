@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package SolvedProblems.Sorting;
 
 import java.util.Arrays;
 

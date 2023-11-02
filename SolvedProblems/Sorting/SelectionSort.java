@@ -1,4 +1,4 @@
-package SolvedProblems.SelectionSort;
+package SolvedProblems.Sorting;
 
 import java.util.Arrays;
 

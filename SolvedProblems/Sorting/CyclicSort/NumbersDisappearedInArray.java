@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
-package SolvedProblems.CyclicSort;
+package SolvedProblems.Sorting.CyclicSort;
 
 import java.util.*;
 
