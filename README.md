@@ -136,31 +136,31 @@
     - - [x] Binary Trees
     - - [x] Recursive Preorder, Inorder, Postorder Traversals
     - - [x] Iterative Preorder, Inorder, Postorder Traversals
-    - - [ ] LC Questions
-    - - [ ] DFS
-    - - [ ] BFS  
+    - - [x] LC Questions
+    - - [x] DFS
+    - - [x] BFS  
     - - [ ] Morris Traversal `O(1) Space`
     - - [x] Binary Search Trees
-    - - [ ] LC Questions
+    - - [x] LC Questions
     - - [x] AVL Trees
     - - [x] Segment Tree
     - - [ ] Fenwick Tree / Binary Indexed Tree
-- [ ] Heaps
-    - - [ ] Introduction
-    - - [ ] Theory
-    - - [ ] Priority Queue
+- [x] Heaps
+    - - [x] Introduction
+    - - [x] Theory
+    - - [x] Priority Queue
     - - [ ] Two Heaps Method
     - - [ ] k-way merge
-    - - [ ] top k elements
+    - - [x] top k elements
     - - [ ] interval problems
-- [ ] Hashmaps
-    - - [ ] Introduction
-    - - [ ] Theory - how it works
-    - - [ ] Comparisons of various forms
-    - - [ ] Limitations and how to solve
-    - - [ ] Map using LinkedList
+- [x] Hashmaps
+    - - [x] Introduction
+    - - [x] Theory - how it works
+    - - [x] Comparisons of various forms
+    - - [x] Limitations and how to solve
+    - - [x] Map using LinkedList
     - - [ ] Map using Hash
-    - - [ ] Chaining
+    - - [x] Chaining
     - - [ ] Probing
     - - [ ] Huffman-Encoder
 - [ ] Tries
