@@ -1,4 +1,4 @@
-package SolvedProblems.Backtracking.SudokoSolver;
+package Backtracking.SudokoSolver;
 
 import java.util.Arrays;
 

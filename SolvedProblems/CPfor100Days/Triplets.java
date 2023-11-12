@@ -1,3 +1,5 @@
+package CPfor100Days;
+
 import java.util.Scanner;
 
 public class Triplets {

@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class ResetBit {
     public static int reset(int n , int i){

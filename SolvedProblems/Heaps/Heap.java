@@ -1,4 +1,4 @@
-package SolvedProblems.Heaps;
+package Heaps;
 
 import java.util.ArrayList;
 

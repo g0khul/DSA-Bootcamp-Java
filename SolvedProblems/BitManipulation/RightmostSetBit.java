@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class RightmostSetBit {
     public static int rightmostSetBit(int n){

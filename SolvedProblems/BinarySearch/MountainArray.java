@@ -1,4 +1,4 @@
-package SolvedProblems.BinarySearch;
+package BinarySearch;
 
 public class MountainArray {
     public static int usingBinarySearch(int[] arr) {

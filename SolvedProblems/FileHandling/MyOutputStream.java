@@ -1,4 +1,4 @@
-package SolvedProblems.FileHandling;
+package FileHandling;
 
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;

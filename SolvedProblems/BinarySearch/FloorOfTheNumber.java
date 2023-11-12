@@ -1,4 +1,4 @@
-package SolvedProblems.BinarySearch;
+package BinarySearch;
 
 public class FloorOfTheNumber {
     public static int floorOfNum(int[] arr, int target) {

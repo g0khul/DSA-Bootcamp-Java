@@ -1,3 +1,4 @@
+package Arrays;
 
 public class BuildArrayfromPermutation {
     public static int[] buildArray(int[] nums) {

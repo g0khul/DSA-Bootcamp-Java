@@ -1,3 +1,5 @@
+package CPfor100Days;
+
 class Cosmetics {
     protected String brand;
 

@@ -1,4 +1,4 @@
-package SolvedProblems.Backtracking.NKnights;
+package Backtracking.NKnights;
 
 public class Kknights {
     public static int kKnights(boolean[][] board, int row) {

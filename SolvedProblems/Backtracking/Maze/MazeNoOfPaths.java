@@ -1,4 +1,4 @@
-package SolvedProblems.Backtracking.Maze;
+package Backtracking.Maze;
 
 import java.util.ArrayList;
 

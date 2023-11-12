@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class NoAppearOnce {
     public static int numberAppearingOnce(int[] arr, int n) {

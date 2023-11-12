@@ -1,3 +1,4 @@
+package CPfor100Days.Strings;
 
 public class RemoveDigitFromDigit {
     public static String removeDigit(String number, char digit) {

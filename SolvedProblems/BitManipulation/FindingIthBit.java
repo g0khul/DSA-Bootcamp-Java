@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class FindingIthBit {
     public static int iThBit(int n, int i){

@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
-package SolvedProblems.BinarySearch;
+package BinarySearch;
 
 public class RotatedBinarySearch {
 

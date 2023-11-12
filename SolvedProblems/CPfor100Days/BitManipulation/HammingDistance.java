@@ -1,4 +1,4 @@
-package BitManipulation;
+package CPfor100Days.BitManipulation;
 
 public class HammingDistance {
     public static int hammingDistance(int x, int y) {

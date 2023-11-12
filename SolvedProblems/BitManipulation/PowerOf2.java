@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class PowerOf2 {
     public static boolean powerOfTwo(int n) {

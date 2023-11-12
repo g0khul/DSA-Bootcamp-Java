@@ -1,4 +1,4 @@
-package SolvedProblems.Backtracking.NQueens;
+package Backtracking.NQueens;
 
 public class NQueens {
     public static  int placeQueens(boolean[][] board, int row) {

@@ -1,4 +1,4 @@
-package SolvedProblems.LinkedList.DoublyLinkedList;
+package LinkedList.DoublyLinkedList;
 
 public class DoublyLinkedList {
     Node head;

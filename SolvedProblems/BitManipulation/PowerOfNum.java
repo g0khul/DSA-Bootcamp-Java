@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class PowerOfNum {
     public static int findingPower(int base, int power) {

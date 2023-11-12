@@ -1,4 +1,4 @@
-package SolvedProblems.LinkedList.Problems;
+package LinkedList.Problems;
 
 public class ListNode {
     int val;

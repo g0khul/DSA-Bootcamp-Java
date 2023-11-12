@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class SettingIthBitTo1 {
     public static int changeBit(int n, int i){

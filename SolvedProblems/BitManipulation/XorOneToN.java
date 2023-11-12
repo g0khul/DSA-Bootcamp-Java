@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class XorOneToN {
     public static int xorRange(int a, int b) {

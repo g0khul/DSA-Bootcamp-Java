@@ -1,3 +1,5 @@
+package CPfor100Days.Strings;
+
 public class NumberOfStringsThatAppearAsSubstringsInWord {
     public static void main(String[] args) {
         String[] patterns = { "a", "abc", "bc", "d" };

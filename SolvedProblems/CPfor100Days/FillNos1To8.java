@@ -1,3 +1,5 @@
+package CPfor100Days;
+
 public class FillNos1To8 {
     public static void main(String[] args) {
         int[][] nums = new int[3][4];

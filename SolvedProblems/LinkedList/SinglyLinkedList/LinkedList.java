@@ -1,4 +1,4 @@
-package SolvedProblems.LinkedList.SinglyLinkedList;
+package LinkedList.SinglyLinkedList;
 
 public class LinkedList {
     Node head;

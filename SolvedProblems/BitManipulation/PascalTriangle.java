@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class PascalTriangle {
     public static int nthSum(int n) {

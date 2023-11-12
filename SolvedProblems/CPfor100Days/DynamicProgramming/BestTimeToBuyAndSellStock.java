@@ -1,3 +1,5 @@
+package CPfor100Days.DynamicProgramming;
+
 public class BestTimeToBuyAndSellStock {
     public static void main(String[] args) {
         int[] nums = { 1, 2, 4 };

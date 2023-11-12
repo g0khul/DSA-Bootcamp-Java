@@ -1,3 +1,5 @@
+package CPfor100Days.Strings;
+
 import java.util.List;
 
 public class CountItemsMatchingRule {

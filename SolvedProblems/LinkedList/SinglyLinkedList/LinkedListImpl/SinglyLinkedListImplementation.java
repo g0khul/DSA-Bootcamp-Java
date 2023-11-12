@@ -1,3 +1,5 @@
+package LinkedList.SinglyLinkedList.LinkedListImpl;
+
 class Node {
     int data;
     Node next;

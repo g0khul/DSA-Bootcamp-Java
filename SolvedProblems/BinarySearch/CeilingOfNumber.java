@@ -1,4 +1,4 @@
-package SolvedProblems.BinarySearch;
+package BinarySearch;
 
 public class CeilingOfNumber {
     public static int findingCeiling(int[] arr, int target) {

@@ -1,4 +1,4 @@
-package SolvedProblems.Collections;
+package Collections;
 
 import java.util.Arrays;
 

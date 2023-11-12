@@ -1,3 +1,5 @@
+package CPfor100Days.Strings;
+
 public class DecryptString {
     public static String freqAlphabets(String s) {
         String result = "";

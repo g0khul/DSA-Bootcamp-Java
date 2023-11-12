@@ -1,3 +1,5 @@
+package CPfor100Days;
+
 public class ValidPerfectSquare {
     public static boolean isPerfectSquare(int num) {
         int val = (int) Math.sqrt(num);

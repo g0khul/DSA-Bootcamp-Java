@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class EvenOdd {
     public static boolean evenOdd(int n) {

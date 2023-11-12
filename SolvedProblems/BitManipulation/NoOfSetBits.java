@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class NoOfSetBits {
     public static int setBits(int n){

@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class UniqueNoInArray {
     public static int uniqueNo(int[] arr) {

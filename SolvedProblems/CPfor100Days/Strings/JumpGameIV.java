@@ -1,3 +1,4 @@
+package CPfor100Days.Strings;
 
 public class JumpGameIV {
     public static void main(String[] args) {

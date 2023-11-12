@@ -1,4 +1,4 @@
-package SolvedProblems.Collections;
+package Collections;
 
 import java.util.*;
                             // <T extends Number> will allow only type of Number or it's sub class

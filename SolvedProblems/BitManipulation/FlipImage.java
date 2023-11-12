@@ -1,4 +1,4 @@
-package SolvedProblems.BitManipulation;
+package BitManipulation;
 
 public class FlipImage {
     public static int[][] flipAndInvertImage(int[][] image) {
