@@ -1,5 +1,3 @@
-package Strings;
-
 public class ExcelSheetColumnTitle {
     public static void main(String[] args) {
         System.out.println(convertToTitle(52));

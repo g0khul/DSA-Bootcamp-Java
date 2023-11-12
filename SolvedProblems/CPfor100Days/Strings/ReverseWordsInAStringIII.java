@@ -1,4 +1,3 @@
-package Strings;
 
 public class ReverseWordsInAStringIII {
     public static void main(String[] args) {

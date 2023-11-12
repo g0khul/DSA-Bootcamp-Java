@@ -1,4 +1,3 @@
-package Strings;
 
 public class JumpGameIV {
     public static void main(String[] args) {

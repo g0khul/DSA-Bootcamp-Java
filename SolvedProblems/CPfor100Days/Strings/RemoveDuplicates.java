@@ -1,4 +1,3 @@
-package Strings;
 // https://leetcode.com/problems/remove-duplicate-letters/submissions/
 
 import java.util.Stack;

@@ -1,5 +1,3 @@
-package Strings;
-// package SolvedProblems.CPfor100Days;
 
 public class RemoveDigitFromDigit {
     public static String removeDigit(String number, char digit) {

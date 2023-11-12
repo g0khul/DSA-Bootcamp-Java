@@ -1,3 +1,4 @@
+package CPfor100Days.Array;
 
 public class MajorityElement {
     public static void main(String[] args) {

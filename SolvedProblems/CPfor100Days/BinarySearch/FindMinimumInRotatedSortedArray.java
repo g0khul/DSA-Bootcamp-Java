@@ -1,4 +1,4 @@
-package BinarySearch;
+package CPfor100Days.BinarySearch;
 
 public class FindMinimumInRotatedSortedArray {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package Strings;
 
 public class SortSentence {
     public static String sortSentence(String s) {

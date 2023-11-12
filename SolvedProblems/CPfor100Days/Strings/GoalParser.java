@@ -1,4 +1,3 @@
-package Strings;
 public class GoalParser {
     public static String interpret(String command) {
         String result = "";

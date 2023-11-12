@@ -1,4 +1,4 @@
-package BinarySearch;
+package CPfor100Days.BinarySearch;
 
 public class SearchInRotatedArrayII {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Strings;
+package CPfor100Days.Strings;
 
 public class StringEquvilent {
     public static boolean arrayStringsAreEqual(String[] word1, String[] word2) {

@@ -1,4 +1,5 @@
-package Array;
+package CPfor100Days.Array;
+
 import java.util.Arrays;
 
 public class MedianTwoSortedArrays {

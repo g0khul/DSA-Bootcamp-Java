@@ -1,5 +1,3 @@
-package Strings;
-
 public class DetermineIfStringHalvesAreAlike {
     public static void main(String[] args) {
         String s = "textbook";

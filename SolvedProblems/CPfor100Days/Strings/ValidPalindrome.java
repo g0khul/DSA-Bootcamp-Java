@@ -1,4 +1,4 @@
-package Strings;
+package CPfor100Days.Strings;
 
 public class ValidPalindrome {
     public static boolean isPalindrome(String s) {
