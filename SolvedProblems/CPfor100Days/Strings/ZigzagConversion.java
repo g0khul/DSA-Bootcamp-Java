@@ -45,18 +45,4 @@ public class ZigzagConversion {
 
         return sb.toString();
     }
-
-    private static void fillRow(char[][] string, String s, int row, int col, int i) {
-        // col increases and row decreases
-        while (row != 0 && i < s.length()) {
-            string[--row][++col] = s.charAt(i++);
-        }
-    }
-
-    private static void fillColumn(char[][] string, String s, int row, int col, int i) {
-        // row changes and col stays the same
-        while (row < string.length - 1 && i < s.length()) {
-            string[++row][col] = s.charAt(i++);
-        }
-    }
 }
