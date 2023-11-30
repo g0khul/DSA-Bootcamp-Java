@@ -1,16 +1,24 @@
 package CPfor100Days.Tree;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.Queue;
 
-public class ConstructBinaryTree {
-    public static TreeNode buildTree(int[] preorder, int[] inorder) {
-        if (preorder.length == 0) {
+public class ConstructBinaryTreeFromInorderAndPostorderTraversal {
+    public static void main(String[] args) {
+        int[] inorder = { 4, 2, 5, 1, 8, 6, 9, 3, 7 };
+        int[] postorder = { 4, 5, 2, 8, 9, 6, 7, 3, 1 };
+        TreeNode root = buildTree(inorder, postorder);
+        root.prettyDisplay(root);
+    }
+
+    public static TreeNode buildTree(int[] inorder, int[] postorder) {
+        if (inorder.length == 0) {
             return null;
         }
-        int r = preorder[0];
-        int index = 0;
 
+        int r = postorder[postorder.length - 1];
+        int index = 0;
         for (; index < inorder.length; index++) {
             if (r == inorder[index]) {
                 break;
@@ -18,18 +26,11 @@ public class ConstructBinaryTree {
         }
 
         TreeNode node = new TreeNode(r);
-        node.left = buildTree(Arrays.copyOfRange(preorder, 1, index + 1), Arrays.copyOfRange(inorder, 0, index));
-        node.right = buildTree(Arrays.copyOfRange(preorder, index + 1, preorder.length),
-                Arrays.copyOfRange(inorder, index + 1, inorder.length));
+        node.left = buildTree(Arrays.copyOfRange(inorder, 0, index), Arrays.copyOfRange(postorder, 0, index));
+        node.right = buildTree(Arrays.copyOfRange(inorder, index + 1, inorder.length),
+                Arrays.copyOfRange(postorder, index, postorder.length - 1));
 
         return node;
-    }
-
-    public static void main(String[] args) {
-        int[] preorder = { 3, 9, 20, 15, 7 };
-        int[] inorder = { 9, 3, 15, 20, 7 };
-        TreeNode root = buildTree(preorder, inorder);
-        root.prettyDisplay(root);
     }
 }
 

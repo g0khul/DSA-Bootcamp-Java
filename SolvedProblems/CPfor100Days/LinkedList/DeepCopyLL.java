@@ -1,4 +1,4 @@
-package LinkedList;
+package CPfor100Days.LinkedList;
 
 public class DeepCopyLL {
     public static Node copyRandomList(Node head) {
