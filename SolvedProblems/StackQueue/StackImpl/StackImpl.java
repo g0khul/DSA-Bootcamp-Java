@@ -1,3 +1,5 @@
+package StackQueue.StackImpl;
+
 // Implementing stack using linked list
 class StackLinkedList {
     int data;

@@ -1,4 +1,4 @@
-package SolvedProblems.Trees.SegmentTree;
+package Trees.SegmentTree;
 
 // Node implementation of Segment Tree
 class Node {

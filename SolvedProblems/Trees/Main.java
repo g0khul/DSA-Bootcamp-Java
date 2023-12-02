@@ -1,4 +1,4 @@
-package SolvedProblems.Trees;
+package Trees;
 
 import java.util.Scanner;
 

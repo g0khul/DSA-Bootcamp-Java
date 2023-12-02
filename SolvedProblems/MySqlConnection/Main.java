@@ -1,3 +1,5 @@
+package MySqlConnection;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -11,7 +13,7 @@ public class Main {
         String query = "";
 
         Class.forName("com.mysql.cj.jdbc.Driver");
-        DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+        // DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
         Connection con = DriverManager.getConnection(url, username, password);
         // query = "select * from StudentMarks";
         // Statement st = con.createStatement();

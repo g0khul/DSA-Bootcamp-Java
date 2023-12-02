@@ -7,7 +7,7 @@
 //        *   *
 //         * *
 //          *
-package SolvedProblems.Patterns;
+package Patterns;
 
 public class Pattern15Assignment {
     public static void main(String[] args) {

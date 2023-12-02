@@ -1,4 +1,4 @@
-package SolvedProblems.Sorting.CyclicSort;
+package Sorting.CyclicSort;
 
 import java.util.Arrays;
 

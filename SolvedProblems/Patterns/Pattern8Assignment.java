@@ -1,4 +1,4 @@
-package SolvedProblems.Patterns;
+package Patterns;
 
 import java.util.*;
 

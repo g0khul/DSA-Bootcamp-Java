@@ -1,4 +1,4 @@
-package SolvedProblems.Math;
+package Math;
 
 import java.util.ArrayList;
 

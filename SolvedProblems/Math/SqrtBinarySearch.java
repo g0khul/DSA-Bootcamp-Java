@@ -1,4 +1,4 @@
-package SolvedProblems.Math;
+package Math;
 
 public class SqrtBinarySearch {
     public static double sqrt(int n, int p ){

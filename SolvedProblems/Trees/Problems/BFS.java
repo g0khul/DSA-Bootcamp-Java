@@ -1,4 +1,4 @@
-package SolvedProblems.Trees.Problems;
+package Trees.Problems;
 
 import java.util.LinkedList;
 import java.util.Queue;

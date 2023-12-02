@@ -1,4 +1,4 @@
-package SolvedProblems.Math;
+package Math;
 
 public class SqrtNewton {
     public static double sqrt(double n){

@@ -1,4 +1,4 @@
-package SolvedProblems.Math;
+package Math;
 
 public class GcdAndLcm {
     public static int lcm(int a, int b){

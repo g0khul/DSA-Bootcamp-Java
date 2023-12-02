@@ -1,4 +1,5 @@
-package SolvedProblems.StackQueue;
+package StackQueue;
+
 import java.util.*;
 
 public class ReverseAString {

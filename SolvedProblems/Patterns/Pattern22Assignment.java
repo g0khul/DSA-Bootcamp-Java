@@ -1,4 +1,4 @@
-package SolvedProblems.Patterns;
+package Patterns;
 
 public class Pattern22Assignment {
     public static void main(String[] args) {

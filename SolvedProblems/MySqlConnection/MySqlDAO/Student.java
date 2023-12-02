@@ -1,4 +1,4 @@
-package MySqlDAO;
+package MySqlConnection.MySqlDAO;
 
 public class Student {
     int regno;

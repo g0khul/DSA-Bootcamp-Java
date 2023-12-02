@@ -1,8 +1,7 @@
-package Heaps;
+package LLD.HuffmanCoding;
 
 import java.util.ArrayList;
 
-// Min Heap
 public class Heap<T extends Comparable<T>> {
     ArrayList<T> list;
 
@@ -27,6 +26,10 @@ public class Heap<T extends Comparable<T>> {
 
     private int right(int index) {
         return 2 * index + 1;
+    }
+
+    int size() {
+        return list.size() - 1;
     }
 
     void insert(T data) {
@@ -74,20 +77,9 @@ public class Heap<T extends Comparable<T>> {
             min = right;
         }
 
-        if(min != index){
-            swap(min, index);
+        if (min != index) {
+            this.swap(min, index);
             downHeap(min);
         }
     }
-
-    ArrayList<T> heapSort() throws Exception {
-        ArrayList<T> sort = new ArrayList<>();
-
-        while (list.size() != 1) {
-            sort.add(this.remove());
-        }
-
-        return sort;
-    }
-
 }

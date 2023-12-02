@@ -1,4 +1,4 @@
-package SolvedProblems.Strings.KrapRabin;
+package Strings.KrapRabin;
 
 public class KrapRabin {
     private double PRIME = 10501;

@@ -1,4 +1,4 @@
-package SolvedProblems.Sorting.CyclicSort;
+package Sorting.CyclicSort;
 
 public class FindingDuplicate {
     public static int findDuplicate(int[] nums) {

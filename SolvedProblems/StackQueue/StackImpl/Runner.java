@@ -1,3 +1,5 @@
+package StackQueue.StackImpl;
+
 public class Runner {
     public static void main(String[] args) {
         StackImpl stack = new StackImpl();

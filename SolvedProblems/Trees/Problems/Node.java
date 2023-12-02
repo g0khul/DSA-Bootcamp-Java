@@ -1,4 +1,4 @@
-package SolvedProblems.Trees.Problems;
+package Trees.Problems;
 
 public class Node {
     int value;

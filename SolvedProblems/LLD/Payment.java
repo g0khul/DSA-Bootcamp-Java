@@ -1,3 +1,5 @@
+package LLD;
+
 import java.util.*;
 
 class Variables {

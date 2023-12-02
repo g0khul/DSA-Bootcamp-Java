@@ -1,4 +1,4 @@
-package SolvedProblems.StackQueue;
+package StackQueue;
 
 import java.util.Stack;
 

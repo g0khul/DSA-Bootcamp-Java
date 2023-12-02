@@ -1,4 +1,4 @@
-package MySqlDAO;
+package MySqlConnection.MySqlDAO;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

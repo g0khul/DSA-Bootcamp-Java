@@ -1,4 +1,4 @@
-package SolvedProblems.ZohoProblems;
+package LLD;
 
 import java.util.Scanner;
 

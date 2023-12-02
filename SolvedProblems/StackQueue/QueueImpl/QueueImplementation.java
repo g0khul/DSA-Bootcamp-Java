@@ -1,4 +1,4 @@
-package SolvedProblems.StackQueue.QueueImpl;
+package StackQueue.QueueImpl;
 
 class Queue {
     int queue[];

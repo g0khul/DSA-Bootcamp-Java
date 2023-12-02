@@ -1,4 +1,4 @@
-package SolvedProblems.StackQueue;
+package StackQueue;
 
 public class DesignCircularQueue {
     public static void main(String[] args) {

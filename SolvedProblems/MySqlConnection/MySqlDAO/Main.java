@@ -1,4 +1,4 @@
-package MySqlDAO;
+package MySqlConnection.MySqlDAO;
 
 public class Main {
     public static void main(String[] args) throws Exception {

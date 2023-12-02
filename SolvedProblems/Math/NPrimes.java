@@ -1,4 +1,4 @@
-package SolvedProblems.Math;
+package Math;
 
 public class NPrimes{
     public static void printingPrime(int n, boolean[] prime){
