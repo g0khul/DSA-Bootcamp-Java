@@ -1,4 +1,4 @@
-package SolvedProblems.Random;
+package Random;
 
 public class Main {
     public static int encryptinput1(int[] input1, int N) {

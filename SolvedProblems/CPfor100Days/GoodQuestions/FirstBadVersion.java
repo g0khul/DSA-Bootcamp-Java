@@ -1,4 +1,4 @@
-package GoodQuestions;
+package CPfor100Days.GoodQuestions;
 
 public class FirstBadVersion {
     public int firstBadVersion(int n) {

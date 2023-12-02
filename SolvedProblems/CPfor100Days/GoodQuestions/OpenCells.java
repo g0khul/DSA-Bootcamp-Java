@@ -1,4 +1,4 @@
-package GoodQuestions;
+package CPfor100Days.GoodQuestions;
 
 // There are 100 cells. Initially every cells is closed (false) you have to start from 
 // cell 1 to 100. If I go for first cell then invert the cells that makes numbers divisible. 

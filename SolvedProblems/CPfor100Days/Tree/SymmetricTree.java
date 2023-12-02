@@ -1,4 +1,4 @@
-package Tree;
+package CPfor100Days.Tree;
 // https://leetcode.com/problems/symmetric-tree/
 
 import java.util.LinkedList;

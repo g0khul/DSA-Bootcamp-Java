@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class MaxAndMin {
     public static void minMax(int[] arr, int min, int max, int i) {

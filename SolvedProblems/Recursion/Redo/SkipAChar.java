@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion.Redo;
+package Recursion.Redo;
 
 public class SkipAChar {
     public static void main(String[] args) {

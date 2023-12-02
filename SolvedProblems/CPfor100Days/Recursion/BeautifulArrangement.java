@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 public class BeautifulArrangement {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 public class TargetSum {
     public static int findTargettargetWays(int[] nums, int target) {

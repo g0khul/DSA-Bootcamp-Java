@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 public class CountingGoodNumbers {
     public static int countGoodNumbers(long n) {

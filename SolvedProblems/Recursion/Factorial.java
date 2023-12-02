@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class Factorial {
     public static int fact(int n){

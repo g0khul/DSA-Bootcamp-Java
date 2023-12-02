@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 public class PowXN {
     public static double myPow(double x, int n) {

@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class FibonacciUsingRecursion {
     // Printing fibonacci series from 0 to N using recursion

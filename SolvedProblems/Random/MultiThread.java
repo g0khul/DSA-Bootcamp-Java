@@ -1,4 +1,4 @@
-package SolvedProblems.Random;
+package Random;
 
 //Extending the class Thread
 

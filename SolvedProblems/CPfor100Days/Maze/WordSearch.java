@@ -1,4 +1,4 @@
-package Maze;
+package CPfor100Days.Maze;
 
 public class WordSearch {
     static int previousRow = -1;

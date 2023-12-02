@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion.Redo;
+package Recursion.Redo;
 
 import java.util.ArrayList;
 

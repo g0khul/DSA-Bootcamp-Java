@@ -1,4 +1,4 @@
-package SlidingWindow;
+package CPfor100Days.SlidingWindow;
 
 // Find minimum length sub array where the length is greater than or equal to k
 

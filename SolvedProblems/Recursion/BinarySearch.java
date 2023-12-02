@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class BinarySearch {
     public static int binarySearch(int[] arr, int target, int start, int end) {

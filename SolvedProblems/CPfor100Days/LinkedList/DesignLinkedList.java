@@ -1,4 +1,4 @@
-package LinkedList;
+package CPfor100Days.LinkedList;
 
 public class DesignLinkedList {
     public static void main(String[] args) {

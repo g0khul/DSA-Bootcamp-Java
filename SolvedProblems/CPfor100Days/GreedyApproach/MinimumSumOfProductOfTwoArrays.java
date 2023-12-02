@@ -1,4 +1,4 @@
-package GreedyApproach;
+package CPfor100Days.GreedyApproach;
 
 // https://www.geeksforgeeks.org/minimum-sum-product-two-arrays/
 

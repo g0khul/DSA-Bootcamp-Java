@@ -1,4 +1,4 @@
-package SolvedProblems.Random;
+package Random;
 
 class NewThreadForWaitAndNotify implements Runnable {
 

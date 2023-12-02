@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 public class MaximumSubArray {
     public static int maxSubArray(int[] nums) {

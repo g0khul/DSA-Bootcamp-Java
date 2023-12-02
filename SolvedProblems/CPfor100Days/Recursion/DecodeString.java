@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 public class DecodeString {
     public String decodeString(String s) {

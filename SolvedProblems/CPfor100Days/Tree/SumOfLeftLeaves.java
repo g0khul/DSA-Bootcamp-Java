@@ -1,4 +1,5 @@
-package Tree;
+package CPfor100Days.Tree;
+
 import java.util.Stack;
 
 public class SumOfLeftLeaves {

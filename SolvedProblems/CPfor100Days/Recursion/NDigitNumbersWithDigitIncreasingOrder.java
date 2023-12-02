@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 // https://www.geeksforgeeks.org/print-all-n-digit-strictly-increasing-numbers/
 

@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class Print1ToN {
     public static void printingNumbers(int i, int n){

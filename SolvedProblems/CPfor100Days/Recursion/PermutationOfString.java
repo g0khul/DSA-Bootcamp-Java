@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 public class PermutationOfString {
     private static void getPermutation(String string) {

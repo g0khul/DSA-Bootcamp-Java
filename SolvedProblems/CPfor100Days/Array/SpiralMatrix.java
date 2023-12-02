@@ -1,4 +1,4 @@
-package Array;
+package CPfor100Days.Array;
 
 import java.util.ArrayList;
 import java.util.List;

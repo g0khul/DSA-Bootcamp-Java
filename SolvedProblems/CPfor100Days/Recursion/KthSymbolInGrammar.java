@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 public class KthSymbolInGrammar {
     public static int kthGrammar(int n, int k) {

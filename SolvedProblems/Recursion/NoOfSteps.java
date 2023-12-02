@@ -1,6 +1,6 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
-public class noOfSteps {
+public class NoOfSteps {
     static int count = 0;
     static int numberOfSteps(int num) {
         if(num == 0){

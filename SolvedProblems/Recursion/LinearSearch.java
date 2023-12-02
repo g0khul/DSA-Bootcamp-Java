@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class LinearSearch {
     static int search(int[] arr, int target, int i){

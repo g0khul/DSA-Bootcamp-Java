@@ -1,4 +1,4 @@
-package Tree;
+package CPfor100Days.Tree;
 
 public class DiameterOfBinaryTree {
     public static int diameterOfBinaryTree(TreeNode root) {

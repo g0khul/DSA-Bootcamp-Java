@@ -1,4 +1,4 @@
-package SolvedProblems.Random;
+package Random;
 
 // Runnable using lambda expression
 

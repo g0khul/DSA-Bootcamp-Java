@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-package SolvedProblems.Recursion;
+package Recursion;
 
 import java.util.*;
 

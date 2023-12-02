@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class PalindromeNumber {
     static int palindrome(int n, int sum){

@@ -1,4 +1,4 @@
-package LinkedList;
+package CPfor100Days.LinkedList;
 
 public class RemoveNthElementFromEnd {
     public static ListNode removeNthFromEnd(ListNode head, int n) {

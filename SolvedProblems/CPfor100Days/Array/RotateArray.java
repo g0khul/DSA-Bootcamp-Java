@@ -1,4 +1,4 @@
-package Array;
+package CPfor100Days.Array;
 
 public class RotateArray {
     public static void rotate(int[] nums, int k) {

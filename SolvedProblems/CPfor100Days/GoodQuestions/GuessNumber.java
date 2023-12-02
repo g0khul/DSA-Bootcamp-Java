@@ -1,4 +1,5 @@
-package GoodQuestions;
+package CPfor100Days.GoodQuestions;
+
 public class GuessNumber {
     public static int guessNumber(int n) {
         int start = 1;

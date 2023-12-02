@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class TrianglePattern {
     static void patternPrint1(int row, int col){

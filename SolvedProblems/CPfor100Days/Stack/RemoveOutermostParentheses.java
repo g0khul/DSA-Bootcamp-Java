@@ -1,4 +1,4 @@
-package Stack;
+package CPfor100Days.Stack;
 
 public class RemoveOutermostParentheses {
     public static void main(String[] args) {

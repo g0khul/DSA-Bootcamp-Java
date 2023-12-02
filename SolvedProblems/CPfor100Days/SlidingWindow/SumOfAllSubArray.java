@@ -1,4 +1,4 @@
-package SlidingWindow;
+package CPfor100Days.SlidingWindow;
 
 // Find sum of all the sub array with length k
 

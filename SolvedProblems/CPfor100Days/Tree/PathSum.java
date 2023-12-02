@@ -1,4 +1,4 @@
-package Tree;
+package CPfor100Days.Tree;
 
 public class PathSum {
     public boolean hasPathSum(TreeNode root, int targetSum) {

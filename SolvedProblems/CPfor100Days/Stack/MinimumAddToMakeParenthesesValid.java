@@ -1,4 +1,4 @@
-package Stack;
+package CPfor100Days.Stack;
 
 import java.util.Stack;
 

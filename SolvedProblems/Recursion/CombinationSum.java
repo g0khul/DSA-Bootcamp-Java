@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/combination-sum/
-package SolvedProblems.Recursion;
+package Recursion;
 
 import java.util.*;
 

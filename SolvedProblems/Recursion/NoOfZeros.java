@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class NoOfZeros {
     static int noOfZeros(int n, int count){

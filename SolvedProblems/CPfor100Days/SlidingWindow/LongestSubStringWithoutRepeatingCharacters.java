@@ -1,4 +1,4 @@
-package SlidingWindow;
+package CPfor100Days.SlidingWindow;
 
 import java.util.HashSet;
 import java.util.Set;

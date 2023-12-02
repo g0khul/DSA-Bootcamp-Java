@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 import java.util.ArrayList;
 import java.util.Arrays;

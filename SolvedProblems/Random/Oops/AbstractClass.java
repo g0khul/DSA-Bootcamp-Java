@@ -1,4 +1,4 @@
-package SolvedProblems.Random.Oops;
+package Random.Oops;
 
 public class AbstractClass {
     public static void main(String[] args) {

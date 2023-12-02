@@ -1,4 +1,4 @@
-package LinkedList;
+package CPfor100Days.LinkedList;
 // import SolvedProblems.CPfor100Days;
 
 public class SwappingNodesLL {

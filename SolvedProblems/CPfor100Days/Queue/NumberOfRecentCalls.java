@@ -1,4 +1,4 @@
-package Queue;
+package CPfor100Days.Queue;
 
 import java.util.LinkedList;
 import java.util.Queue;

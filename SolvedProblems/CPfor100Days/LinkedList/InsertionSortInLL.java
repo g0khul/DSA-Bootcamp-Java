@@ -1,4 +1,4 @@
-package LinkedList;
+package CPfor100Days.LinkedList;
 
 public class InsertionSortInLL {
     public static ListNode insertionSortList(ListNode head) {

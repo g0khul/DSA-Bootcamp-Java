@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 public class FindKthBitInNthBinaryString {
     public char findKthBit(int n, int k) {

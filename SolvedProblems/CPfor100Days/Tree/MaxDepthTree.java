@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/maximum-depth-of-binary-tree/
-package Tree;
+package CPfor100Days.Tree;
 
 import java.util.LinkedList;
 import java.util.Queue;

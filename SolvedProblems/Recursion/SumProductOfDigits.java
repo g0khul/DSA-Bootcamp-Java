@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class SumProductOfDigits {
     public static int productOfDigits(int n, int sum){

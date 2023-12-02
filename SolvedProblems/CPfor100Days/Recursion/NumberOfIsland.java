@@ -1,4 +1,4 @@
-package Recursion;
+package CPfor100Days.Recursion;
 
 public class NumberOfIsland {
     public int numIslands(char[][] grid) {

@@ -1,4 +1,4 @@
-package LinkedList;
+package CPfor100Days.LinkedList;
 
 public class RemoveDuplicatesLL {
     public static ListNode deleteDuplicates(ListNode head) {

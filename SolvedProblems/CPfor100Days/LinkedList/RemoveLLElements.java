@@ -1,4 +1,4 @@
-package LinkedList;
+package CPfor100Days.LinkedList;
 
 public class RemoveLLElements {
     public static ListNode removeElements(ListNode head, int val) {

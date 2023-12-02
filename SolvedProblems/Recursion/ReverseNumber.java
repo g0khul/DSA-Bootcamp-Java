@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class ReverseNumber {
     public static int reverse(int n, int sum){

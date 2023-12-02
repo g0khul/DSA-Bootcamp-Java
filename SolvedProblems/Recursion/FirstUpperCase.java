@@ -1,4 +1,4 @@
-package SolvedProblems.Recursion;
+package Recursion;
 
 public class FirstUpperCase {
     public static char firstUpperCase(String str, int i) {

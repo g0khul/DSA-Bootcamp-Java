@@ -1,4 +1,4 @@
-package SolvedProblems.Random;
+package Random;
 
 interface XYZ {
     public void show();

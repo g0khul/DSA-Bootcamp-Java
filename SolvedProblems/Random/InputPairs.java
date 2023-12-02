@@ -1,4 +1,4 @@
-package SolvedProblems.Random;
+package Random;
 
 import java.util.*;
 

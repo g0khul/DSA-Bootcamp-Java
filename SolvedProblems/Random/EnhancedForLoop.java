@@ -1,4 +1,4 @@
-package SolvedProblems.Random;
+package Random;
 
 public class EnhancedForLoop {
     public static void main(String[] args) {

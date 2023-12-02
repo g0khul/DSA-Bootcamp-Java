@@ -1,4 +1,4 @@
-package LinkedList;
+package CPfor100Days.LinkedList;
 // package SolvedProblem.CPfor100Days;
 
 public class RotateLL {
