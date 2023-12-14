@@ -3,7 +3,7 @@ package CPfor100Days.Tree;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class ConstructBinaryTree {
+public class ConstructBinaryTreeFromPreorderAndInorder {
     public static TreeNode buildTreeBetterWay(int[] preorder, int[] inorder) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
