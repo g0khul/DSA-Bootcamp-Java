@@ -1,5 +1,4 @@
 {
-    "java.project.sourcePaths": [
-        "SolvedProblems"
-    ],
+  "java.project.sourcePaths": ["SolvedProblems"],
+  "java.debug.settings.onBuildFailureProceed": true
 }
