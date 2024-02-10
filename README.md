@@ -26,6 +26,7 @@
   - - [x] Shadowing
   - - [x] Variable Length Arguments
   - - [x] Overloading
+- [x] Pattern questions
 - [x] Arrays
   - - [x] Introduction
   - - [x] Memory management
@@ -42,7 +43,6 @@
     - - [x] Modified Binary Search
     - - [x] Binary Search Interview questions
     - - [x] Binary Search on 2D Arrays
-- [x] Pattern questions
 - [x] Strings
   - [x] Introduction
   - [x] How Strings work
