@@ -17,14 +17,14 @@ public class Pattern27Assignment {
                 System.out.print("    ");
             }
 
-            for (int j = 0; j < n-i; j++) {
+            for (int j = 0; j < n - i; j++) {
                 System.out.printf("%4d", frontVal++);
             }
 
             for (int j = 0; j < n - i; j++) {
                 System.out.printf("%4d", backVal++);
             }
-            backVal = backVal - ((2 * (n-i) )-1);
+            backVal = backVal - ((2 * (n - i)) - 1);
             System.out.println();
         }
     }

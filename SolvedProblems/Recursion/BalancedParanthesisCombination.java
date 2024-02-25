@@ -12,7 +12,7 @@ public class BalancedParanthesisCombination {
     private static List<String> generateParenthesis(int n) {
         return getParanthesis(n, "", 0, 0);
     }
-
+     
     private static List<String> getParanthesis(int n, String paranthesis, int open, int close) {
         if (open == n && close == n) {
             List<String> list = new ArrayList<>();

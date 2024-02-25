@@ -26,12 +26,10 @@ public class SandwichPattern {
         }
         for (; i >= 1; i -= 2) {
             int val = (n * i) - (n - 1);
-            if (i % 2 == 0) {
                 for (int j = 1; j <= n; j++) {
                     System.out.printf("%4d", val++);
                 }
                 System.out.println();
-            }
         }
     }
 }
