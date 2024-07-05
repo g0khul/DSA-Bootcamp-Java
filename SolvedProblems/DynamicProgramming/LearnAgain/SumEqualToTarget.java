@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class SubarraySumEqualsK {
+public class SumEqualToTarget {
     public static void main(String[] args) {
         int[] nums = { 2, 3, 1, 1 };
         int k = 4;
@@ -58,10 +58,7 @@ public class SubarraySumEqualsK {
             return memo[index][target] == 1;
         }
 
-        // Leave it
         boolean leaveIt = helperMemoization(nums, target, index - 1, memo);
-
-        // Take it
         boolean takeIt = false;
         if (target - nums[index] >= 0) {
             takeIt = helperMemoization(nums, target - nums[index], index - 1, memo);
