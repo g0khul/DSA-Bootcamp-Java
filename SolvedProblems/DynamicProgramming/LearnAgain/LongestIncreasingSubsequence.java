@@ -5,11 +5,13 @@ import java.util.Map;
 
 public class LongestIncreasingSubsequence {
     public static void main(String[] args) {
-        int[] nums = { 10, 9, 2, 5, 3, 7, 101, 18 };
+        int[] nums = { 5, 4, 11, 1, 16, 8 };
         System.out.println(lengthOfLISRecursion(nums));
         System.out.println(lengthOfLISMemoization(nums));
         System.out.println(lengthOfLISDp(nums));
         System.out.println(lengthOfLISSpaceOptimization(nums));
+        System.out.println(lengthOfLIS1DArray(nums));
+        System.out.println(Arrays.toString(lengthOfLISPrint(nums)));
     }
 
     public static int lengthOfLISRecursion(int[] nums) {
@@ -100,5 +102,59 @@ public class LongestIncreasingSubsequence {
         }
 
         return curr[0];
+    }
+
+    public static int lengthOfLIS1DArray(int[] nums) {
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp, 1);
+        int max = 1;
+
+        for (int index = 1; index < nums.length; index++) {
+            for (int prev = 0; prev < index; prev++) {
+                if (nums[prev] < nums[index]) {
+                    dp[index] = Math.max(dp[index], 1 + dp[prev]);
+                }
+            }
+            max = Math.max(max, dp[index]);
+        }
+
+        return max;
+    }
+
+    public static int[] lengthOfLISPrint(int[] nums) {
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp, 1);
+        int[] hash = new int[nums.length];
+
+        int maxVal = 1;
+        int maxLength = 1;
+        int maxIndex = 0;
+        for (int index = 0; index < hash.length; index++) {
+            hash[index] = index;
+            for (int prev = 0; prev < index; prev++) {
+                if (nums[prev] < nums[index] && 1 + dp[prev] > dp[index]) {
+                    dp[index] = 1 + dp[prev];
+                    hash[index] = prev;
+                }
+            }
+            if (dp[index] > maxLength) {
+                maxVal = nums[index];
+                maxLength = dp[index];
+                maxIndex = index;
+            }
+        }
+
+        System.out.println(maxVal + " : " + maxIndex);
+
+        int[] res = new int[maxLength];
+        int index = maxIndex;
+        int resi = res.length - 1;
+        res[resi--] = maxVal;
+        while (index != 0) {
+            res[resi--] = nums[hash[index]];
+            index = hash[index];
+        }
+
+        return res;
     }
 }
