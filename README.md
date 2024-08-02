@@ -121,17 +121,17 @@
   - - [x] Pop efficient
   - - [x] Queue using Stack and Vice versa
   - - [x] Circular Queue
-- [ ] Dynamic Programming
-  - - [ ] Introduction
-  - - [ ] Recursion + Recursion DP + Iteration + Iteration Space Optimized
-  - - [ ] Complexity Analysis
-  - - [ ] 0/1 Knapsack
-  - - [ ] Subset Questions
-  - - [ ] DP on Grids
-  - - [ ] LC Questions on Above topics
-  - - [ ] Unbounded Knapsack
-  - - [ ] Subseq questions
-  - - [ ] String DP
+- [x] Dynamic Programming
+  - - [x] Introduction
+  - - [x] Recursion + Recursion DP + Iteration + Iteration Space Optimized
+  - - [x] Complexity Analysis
+  - - [x] 0/1 Knapsack
+  - - [x] Subset Questions
+  - - [x] DP on Grids
+  - - [x] LC Questions on Above topics
+  - - [x] Unbounded Knapsack
+  - - [x] Subseq questions
+  - - [x] String DP
 - [x] Trees
   - - [x] Introduction
   - - [x] Binary Trees
