@@ -14,10 +14,11 @@ public class TopologicalSort {
         adj.get(3).add(1);
         adj.get(4).add(1);
 
-        System.out.println(Arrays.toString(topoSort(adj.size(), adj)));
+        System.out.println(Arrays.toString(topoSortDfs(adj.size(), adj)));
+        System.out.println(Arrays.toString(topoSortBfs(adj.size(), adj)));
     }
 
-    public static int[] topoSort(int V, ArrayList<ArrayList<Integer>> adj) {
+    public static int[] topoSortDfs(int V, ArrayList<ArrayList<Integer>> adj) {
         boolean[] visited = new boolean[V];
         Stack<Integer> stack = new Stack<>();
 
@@ -44,5 +45,39 @@ public class TopologicalSort {
             }
         }
         stack.push(node);
+    }
+
+    public static int[] topoSortBfs(int V, ArrayList<ArrayList<Integer>> adj) {
+        int[] indegree = new int[V];
+        Queue<Integer> queue = new LinkedList<>();
+
+        for (int node = 0; node < V; node++) {
+            for (int child : adj.get(node)) {
+                indegree[child]++;
+            }
+        }
+
+        // Add nodes with indegree 0 to queue
+        for (int i = 0; i < V; i++) {
+            if (indegree[i] == 0) {
+                queue.offer(i);
+            }
+        }
+
+        int[] result = new int[V];
+        int i = 0;
+
+        while (!queue.isEmpty()) {
+            int node = queue.poll();
+            result[i++] = node;
+            for (int child : adj.get(node)) {
+                indegree[child]--;
+                if (indegree[child] == 0) {
+                    queue.offer(child);
+                }
+            }
+        }
+
+        return result;
     }
 }

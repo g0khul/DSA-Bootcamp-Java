@@ -39,4 +39,43 @@ public class DirectedGraphCycle {
         currentPath[node] = false;
         return false;
     }
+
+    public static boolean isCyclicTopoSort(int V, ArrayList<ArrayList<Integer>> adj) {
+        int[] indegree = new int[V];
+
+        for (int node = 0; node < V; node++) {
+            for (int child : adj.get(node)) {
+                indegree[child]++;
+            }
+        }
+
+        Queue<Integer> queue = new LinkedList<>();
+        for (int node = 0; node < indegree.length; node++) {
+            if (indegree[node] == 0) {
+                queue.offer(node);
+            }
+        }
+
+        int count = 0;
+        while (!queue.isEmpty()) {
+            int node = queue.poll();
+            count++;
+            for (int child : adj.get(node)) {
+                indegree[child]--;
+                if (indegree[child] == 0) {
+                    queue.offer(child);
+                }
+            }
+        }
+
+        // for (int node : indegree) {
+        // if (node == 0) {
+        // return false;
+        // }
+        // }
+
+        // return true;
+
+        return !(count == V);
+    }
 }
