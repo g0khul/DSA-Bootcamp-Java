@@ -150,10 +150,10 @@
   - - [x] Introduction
   - - [x] Theory
   - - [x] Priority Queue
-  - - [ ] Two Heaps Method
+  - - [x] Two Heaps Method
   - - [ ] k-way merge
   - - [x] top k elements
-  - - [ ] interval problems
+  - - [x] interval problems
 - [x] Hashmaps
   - - [x] Introduction
   - - [x] Theory - how it works
@@ -171,20 +171,20 @@
   - - [ ] Insert and Search
   - - [ ] GFG articles and Questions
   - - [ ] Interview Questions
-- [ ] Graphs
-  - - [ ] Introduction
-  - - [ ] BFS
-  - - [ ] DFS
-  - - [ ] Working with graph components
-  - - [ ] Bipartite Graph
-  - - [ ] LC Questions
-  - - [ ] Minimum Spanning Trees
+- [x] Graphs
+  - - [x] Introduction
+  - - [x] BFS
+  - - [x] DFS
+  - - [x] Working with graph components
+  - - [x] Bipartite Graph
+  - - [x] LC Questions
+  - - [x] Minimum Spanning Trees
   - - [ ] Kruskal Algorithm
-  - - [ ] Prims Algorithm
-  - - [ ] Dijkstra’s shortest path algorithm
-  - - [ ] Topological Sort
-  - - [ ] Kahn's Algorithm
-  - - [ ] Bellman ford
+  - - [x] Prims Algorithm
+  - - [x] Dijkstra’s shortest path algorithm
+  - - [x] Topological Sort
+  - - [x] Kahn's Algorithm
+  - - [x] Bellman ford
   - - [ ] A\* pathfinding Algorithm
 - [ ] Greedy Algorithms
   - - [ ] Introduction

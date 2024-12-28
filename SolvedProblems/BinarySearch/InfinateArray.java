@@ -1,7 +1,6 @@
 package BinarySearch;
 
 public class InfinateArray {
-    static int start = 0, end = 1;
 
     public static int binarySearch(int[] arr, int target, int start, int end) {
         System.out.println(start + " " + end);
@@ -24,7 +23,7 @@ public class InfinateArray {
      * from size 2 to 4 to 8 i.e. doubling the range of start and end
      */
     public static int ans(int[] arr, int target) {
-
+        int start = 0, end = 1;
         while (target > arr[end]) {
             int newStart = end + 1;
             end = end + (end - start + 1) * 2;
